@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(229, 226, 226);
+}
+main {
+  margin: 2%;
+}
+article {
+  background-color: white;
+  margin-top: 3%;
+  padding: 10px;
+}
+
+
+
+
+.logo {
+  background-color: #222F3E;
+}
+.logo img {
+    padding: 10px;
+  width: 100px;
+}
+
+
+
+
+.list-container {
+  background-color: #354759;
+}
+.list li {
+  display: inline-block;
+  padding: 10px;
+}
+.list li a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+
+
+
+.shop {
+  background-color: orange;
+  text-align: center;
+  padding: 5px;
+}
+.shop a {
+  font-size: smaller;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.holidaygiftguides {
+  background-image: url(../images/bg-image.png), url(../images/bg-img.png);
+  text-align: center;
+  margin-top: 2%;
+}
+.holidaygiftguides h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-style: calc();
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.holidaygiftguides h4 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+.shopnow {
+  padding-top: 1%;
+  padding-left: 1%;
+}
+.shopnow h3 {
+  font-size: small;
+  display: inline-block;
+}
+.shopnow a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  color: #2f6e60;
+  margin-left: 1%;
+}
+
+
+
+
+.images {
+  font-size: 0px;
+}
+.image-container {
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+}
+.image-container img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.152);
+}
+
+
+
+.images-2 {
+    margin-top: 5%;
+}
+.images-2 img {
+    width: 100%;
+}
+.images-2 p{
+    text-align: center;
+    margin-top: 10px;
+}
+.images-2 a{
+    margin-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #387E8B;
+}
+
+
+
+
+.images-3 {
+    margin-top: 5%;
+}
+.images-3 img{ 
+    width: 100%;
+}
+.images-3 p{
+    text-align: center;
+    margin-top: 10px;
+}
+.images-3 a{
+    margin-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #387E8B;
+}
+
+
+
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #354759;
+}
+.footer a{
+    font-size: small;
+    color: white;
+}
+
+
+.final-footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #222F3E;
+}
+
+.final-footer img {
+    width: 100px;
+}
